@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+    background-color: lightgray;
+}
+.content {
+    width: 75%;
+    background-color: lightgray;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li: hover {
+    background-color: silver;
+}
+#contact {
+    text-align: center;
+}
+ 
+img {
+    float: right;
+}
+.more {
+    float: right;
+}
+.clearfix {
+    overflow: auto;
+}
+</style>
+</head>
+<body>
 
+<div class="header">
+  <img src="https://pbs.twimg.com/profile_images/798384292229304321/Jp7RCFvL.jpg" width=100 height=80>
+  <h1>Enver Creek Secondary</h1>
+
+  
+ </div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Main</li>
+      <li>Departments</li>
+      <li>Clubs & Teams</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Departments</h1>
+    <p>Enver Creek offers a variety of areas of study, while keeping on the mandatory curriculum. Students get to choose which area of curriculum they would like to pursue.</p>
+    
+  </div>
+  
+   <div class="column content more">
+    <h1>Math</h1>
+    <img src="http://www.vector-eps.com/wp-content/gallery/math-formula-vectors/physics-formula-vectors.jpg" width=200px height=150px>
+     <p>Math is a crucial academic for students, as it teaches them everyday math skills, all the way to scientific calculus formulas. The math department also invites students who perform brilliant in math, to to join the math team that compete in math competitions.</p>
+    
+  </div>
+  
+  <div class="column content more">
+    <h1>English</h1>
+    <img src="http://images.indianexpress.com/2016/06/poetry-main.jpg" width=200 height=150>
+    <p>English is a very important academic, as it teaches students about proper grammar, spelling and punctuation, as well as literature and poetry. Poetry contests provide students with interest in poetry, to express themseelves in a poem. This could also lead to a potential scholarship.</p>
+  </div>
+  
+  <div class="column content more">
+    <h1>Science</h1>
+    <img src="https://fthmb.tqn.com/RyLctV1kN76tPsxY555VtCpjSpA=/1500x1000/filters:fill(auto,1)/Atom-58e4f7173df78c51626061cc.jpg" width=200 height=150>
+    <p>Science educates students about our wonderful world. From exploding reactions, to airplane engineering, to cell mechanisms, science is quite an interesting subject. </p>
+  
+  </div>
+</div>
+  
+<div class="footer">
+  <p id="contact">14505-84 Avenue Surrey, BC</p>
+  <p id="contact">Phone:604-543-8149 Fax: 604-543-9762</p>
+</div>
+
+</body>
+</html>
