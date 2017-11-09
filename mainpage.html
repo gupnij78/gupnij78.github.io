@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    background-image: url("http://images.all-free-download.com/images/graphiclarge/shading_background_05_vector_179619.jpg")
+}
+
+.header {
+     background-color: #9c6300;
+     background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
+    padding: 20px;
+    text-align: center;
+    color: white; 
+}
+h1 {
+     font-family: 'Aclonica';
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    text-align: center;
+}
+
+.middle {
+    font-family: 'Aclonica';
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#intro {
+    font-family: 'Aclonica';
+    color: white;
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Tandoori House</h1>
+  <h3>Savor every bite</h3>
+</div>
+
+<div class="middle">
+  <p id="intro"> Welcome to Tandoori House. Enjoy the legendary taste of Indian cuisine and the art of Tandoori. Founded in 2003, we have been serving the lower mainland for 14 years. Come and experience the legendary taste.</p>
+ </div>
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+  <p>Menu</div>
+  <div class="column" style="background-color:#bbb;">
+  <p>Reservations</p>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+  <p>Locations</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Contact Info</p>
+</div>
+
+</body>
+</html>
