@@ -22,7 +22,9 @@ body {
 }
 h1 { 
      font-family: 'Aclonica';
+     font-size: 50;
 }
+
 .column1, .column2, .column3 {
       float: left;
     width: 33.33%;
@@ -60,20 +62,29 @@ h1 {
     background-image: url('https://www.rvinyl.com/Shared/Images/Product/Rwraps-reg-Vinyl-Film-Wrap-Black-Matte/Black-Matte-Vinyl-Wraps.jpg');
     padding: 10px;
     text-align: center;
+    color: white;
 }
 @media (max-width: 600px) {
+}
     .column {
         width: 100%;
-    }
 }
-
+   #button {
+   padding: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: #ffffff;
+    }
+#tandoori {
+    float: left;
+}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>TANDOORI HOUSE</h1>
-  <h3>Savor every bite</h3>
+  <img id="tandoori" src="http://www.heavenlyjerky.com.au/wp-content/uploads/2014/04/Tandoori-Logo.fw_.png" width=300 height=70>
+  <h1><font size="50">House</font></h1>
 </div>
 
 <div class="middle">
@@ -81,18 +92,19 @@ h1 {
  </div>
 <div class="row">
   <div class="column1" style="background-color:#aaa;">
-  <p>Menu</p>
+  <p id="button">Menu</p>
   </div>
   <div class="column2" style="background-color:#bbb;">
-  <p>Peg Menu</p>
+  <p id="button">Peg Menu</p>
   </div>
   <div class="column3" style="background-color:#ccc;">
-  <p>Locations</p>
+  <p id="button">Locations</p>
   </div>
 </div>
 
 <div class="footer">
-  <p>Contact Info</p>
+  <p>Phone: 604-555-1234</p>
+  <p>Email: tandoorihouse@gmail.com</p>
 </div>
 
 </body>
