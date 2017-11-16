@@ -1,1 +1,117 @@
+<head>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url("http://hdblackwallpaper.com/wallpaper/2015/07/black-and-gold-wallpaper-28-background-wallpaper.jpg")
+}
+.header {
+     background-color: #9c6300;
+     background-image: url("https://www.rvinyl.com/Shared/Images/Product/Rwraps-reg-Vinyl-Film-Wrap-Black-Matte/Black-Matte-Vinyl-Wraps.jpg");
+    padding: 20px;
+    text-align: center;
+    color: white; 
+}
+h1 { 
+     font-family: 'Aclonica';
+     font-size: 50;
+}
 
+.column1, .column2, .column3 {
+      float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    text-align: center;
+    background-image: url('http://redchillidorking.com/wp-content/uploads/2014/08/slider_bg1a.jpg');
+    color: white;
+}
+
+.middle {
+    font-family: 'Aclonica';
+    color: white;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#intro {
+    font-family: 'Aclonica';
+    color: white;
+}
+.footer {
+    background-image: url('https://www.rvinyl.com/Shared/Images/Product/Rwraps-reg-Vinyl-Film-Wrap-Black-Matte/Black-Matte-Vinyl-Wraps.jpg');
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 600px) {
+}
+    .column {
+        width: 100%;
+}
+   #button {
+   padding: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: #ffffff;
+    }
+#tandoori {
+    float: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img id="tandoori" src="http://www.heavenlyjerky.com.au/wp-content/uploads/2014/04/Tandoori-Logo.fw_.png" width=300 height=70>
+  <h1><font size="50">House</font></h1>
+</div>
+
+<div class="middle">
+  <p id="intro">Menu</p>
+ </div>
+<div class="row">
+  <div class="column1" style="background-color:#aaa;">
+  <h2>Breakfast</h2>
+  <table>
+<th>Snacks</th>
+  <tr>
+    <td>Veg. Pakora</td>
+    <td>Fried fritter snack, filled with mixed vegetables</td>
+    <td>$6.00/lb</td>
+  </tr>
+  <tr>
+    <td>Aloo Prontha</td>
+    <td>Fluffy cooked flatbread stuffed with potatoes</td>
+    <td>$4.00/order</td>
+  </tr>
+  <tr>
+    <td>Samosa</td>
+    <td>Fried flour shell stuffed with potato filling</td>
+    <td>$3.00/order</td>
+  </tr>
+</table>
+  </div>
+  <div class="column2" style="background-color:#bbb;">
+  <h2>Lunch</h2>
+  </div>
+  <div class="column3" style="background-color:#ccc;">
+  <h2>Dinner</h2>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Phone: 604-555-1234</p>
+  <p>Email: tandoorihouse@gmail.com</p>
+</div>
+
+</body>
+</html>
