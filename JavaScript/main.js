@@ -29,9 +29,10 @@ switch(user) {
     break;
     
     case 'TOYOTA':
-        if (coffee === 'get coffee'|| coffee === 'coffee' && coffee === 'go to work'|| coffee === 'work') {
+        if (coffee === 'get coffee'|| coffee === 'coffee' || coffee === 'go to work'|| coffee === 'work') {
             
     alert("Out of all the vehicles you have, you went for the Toyota Camry, thinking it’s some “Don`t judge a book by its cover” Easter egg. I don’t know where even to begin on how much of a stupid choice that was. You try to start it, and after 10 minutes, you manage to start it. You fall asleep behind the wheel from all that hard work. You drive off a bridge and you die. Game over.");
+    throw new Error();
         }
         
     break;
@@ -55,6 +56,16 @@ switch(user) {
       throw new Error();
     }
 
-alert("You enter your work, a high-rise office in New York, New York. You see a homeless man in the lobby.")
+alert("You enter your work, a high-rise office in New York, New York. You see a homeless man in the lobby.");
 
-var homeless = prompt("Do you GIVE HIM MONEY or do you IGNORE HIM?");
+var homeless = prompt("Do you give him money,  or do you ignore him?").toUpperCase();
+
+    if (homeless === 'GIVE MONEY' || homeless == 'MONEY' || homeless === 'GIVE HIM MONEY') {
+    
+    alert("You take out your wallet and you hand a $20 bill to the man. He cries and tells you that you are an angel. You feel happy. You take the elevator up to your workplace.");
+    
+    } else if (homeless === 'IGNORE' || homeless === 'IGNORE HIM') {
+    
+    alert("You ignore the man, and you take the elevator up to your workplace. Good samaritan achievement DISABLED!");
+   
+    }
