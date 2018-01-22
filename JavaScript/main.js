@@ -196,7 +196,7 @@ var finalChoice = prompt("Do you SHOOT HIM, or do you KNOCK HIM OUT?").toUpperCa
 
 if (finalChoice === 'SHOOT HIM') {
 
-alert("You go for the rifle, but he grabs your foot. You hit your head on the floor, and you cannot move. He picks up the rifle and aims it at your head. GAME OVER!);
+alert("You go for the rifle, but he grabs your foot. You hit your head on the floor, and you cannot move. He picks up the rifle and aims it at your head. GAME OVER!");
 throw new Error();
 
 } else if (finalChoice === 'KNOCK HIM OUT') {
