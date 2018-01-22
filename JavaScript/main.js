@@ -100,7 +100,7 @@ if (clean === 'CLEAN UP DESK' && coffee === 'GET COFFEE') {
 
 alert("Your desk is clean, and you start working. You manage to close 5 sales in the next 20 minutes. Good job!");
 
-alert(" Suddenly, the floor vibrates and a loud bang emits on the first floor. You look around and everyone is confused. A security guard rushes in from the elevator and shouts ‘Everyone, we are going in a lockdown! Get to the break room and lock all doors and close all shutters!’ ");
+alert("Suddenly, the floor vibrates and a loud bang emits on the first floor. You look around and everyone is confused. A security guard rushes in from the elevator and shouts ‘Everyone, we are going in a lockdown! Get to the break room and lock all doors and close all shutters!’ ");
 
 alert("’ In a split second, everyone is panicking and running for the breakroom.");
 
@@ -120,11 +120,15 @@ throw new Error();
 
 alert("You stay under your desk, as the breakroom would be a bad idea.");
 
+} else {
+
+alert("INVALID COMMAND! GAME OVER!");
+throw new Error();
 }
 
 alert("You hear the security guard loading in a gun. Your father used to take you hunting, so you know a ton about guns. You look through the crack of you desk, and you see the guard barricaded behind a wall, his gun aiming at the elevators. He might need help");
 
-var choiceTwo = prompt("Do you STAY IN HIDING, or do you GO TO HIM?");
+var choiceTwo = prompt("Do you STAY IN HIDING, or do you GO TO HIM?").toUpperCase();
 
 if (choiceTwo === 'GO TO HIM') {
 
@@ -151,7 +155,7 @@ alert("The footsteps continue and you manage to see a tall person in a black jum
 
 alert("He is armed with an assault rifle, and he is heading for the breakroom. You now understand that this is a terrorist attack, and that he is going to kill everyone in the breakroom. You have to do something fast!");
 
-var choiceThree = prompt("You look around, and you see a metal pencil holder and a cellphone. Will you CALL 911, USE PENCIL HOLDER as a weapon, or PUT CELLPHONE IN PENCIL HOLDER?");
+var choiceThree = prompt("You look around, and you see a metal pencil holder and a cellphone. Will you CALL 911, USE PENCIL HOLDER as a weapon, or PUT CELLPHONE IN PENCIL HOLDER?").toUpperCase();
 
 if (choiceThree === 'USE PENCIL HOLDER') {
 
@@ -223,4 +227,3 @@ alert("Coding: Gupaul Nijjar");
 alert("Story: Gupaul Nijjar");
 
 alert("Basically everything that made this game apart from JSFIDDLE and GITHUB: Gupaul Nijjar");
-
