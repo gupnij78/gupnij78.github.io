@@ -69,6 +69,11 @@ if (homeless === 'GIVE MONEY' || homeless == 'MONEY' || homeless === 'GIVE HIM M
 
   alert("You ignore the man, and you take the elevator up to your workplace. Good samaritan achievement DISABLED!");
 
+} else {
+
+alert("INVALID COMMAND! GAME OVER!");
+throw new Error();
+
 }
 
 alert("You walk to your desk, and it has garbage everywhere from the office party, last night.");
@@ -99,5 +104,123 @@ alert(" Suddenly, the floor vibrates and a loud bang emits on the first floor. Y
 
 alert("’ In a split second, everyone is panicking and running for the breakroom.");
 
+var choiceOne = prompt("Do you GO TO BREAKROOM, or do you STAY UNDER DESK?").toUpperCase();
 
+if (choiceOne === 'GO TO BREAKROOM') {
+alert("You head for the breakroom. A co-worker closes the door, and closes the shutters. Everyone stays quiet.");
+
+alert("3 minutes later, a silenced shot is heard from outside the door. Footsteps come closer to the door.");
+
+alert("The door opens, and a tall person in a black jumpsuit appears at the door with a rifle in his hand. O O F!");
+
+alert("Everything happens very fast, and it doesn't end well. Game over.");
+throw new Error();
+
+} else if (choiceOne === 'STAY UNDER DESK') {
+
+alert("You stay under your desk, as the breakroom would be a bad idea.");
+
+}
+
+alert("You hear the security guard loading in a gun. Your father used to take you hunting, so you know a ton about guns. You look through the crack of you desk, and you see the guard barricaded behind a wall, his gun aiming at the elevators. He might need help");
+
+var choiceTwo = prompt("Do you STAY IN HIDING, or do you GO TO HIM?");
+
+if (choiceTwo === 'GO TO HIM') {
+
+alert("You stand up. The guard shoots you, thinking you’re an intruder. You are dead. Game over.");
+throw new Error();
+
+} else if (choiceTwo === 'STAY IN HIDING') {
+
+alert("You stay in hiding.  An elevator ding emits form the elevators, and heavy footsteps are heard.");
+
+} else {
+
+alert("INVALID COMMAND! GAME OVER!");
+throw new Error();
+
+}
+
+
+alert("“Whoever you are, please lower your weapon. I am authorized to fire any hostiles.” Says the guard.");
+
+alert("A silenced shot emits, and you look in shock, as the guard falls to the ground, his white shirt stained with blood.");
+
+alert("The footsteps continue and you manage to see a tall person in a black jumpsuit.");
+
+alert("He is armed with an assault rifle, and he is heading for the breakroom. You now understand that this is a terrorist attack, and that he is going to kill everyone in the breakroom. You have to do something fast!");
+
+var choiceThree = prompt("You look around, and you see a metal pencil holder and a cellphone. Will you CALL 911, USE PENCIL HOLDER as a weapon, or PUT CELLPHONE IN PENCIL HOLDER?");
+
+if (choiceThree === 'USE PENCIL HOLDER') {
+
+alert("You grab the pencil holder, and you throw it at the intruder. He shouts in pain, and he stops his footsteps.");
+
+alert("The footsteps start again, and they are coming closer to you.");
+
+alert("The intruder is standing right in front of your desk, and he picks up the cellphone.");
+
+alert("He aims the gun underneath the desk and fires. Game over.");
+throw new Error();
+
+} else if (choiceThree === 'CALL 911') {
+
+alert("You grab the cellphone and try to dial 911. The cellphone’s ringer was on, and the number tones emit from the phone.");
+
+alert("The footsteps stop.");
+
+alert("They start again and they are coming your way.");
+
+alert("The intruder stops in front of your desk. *911 what is your emergenc-- *BANG!* Game over.");
+throw new Error();
+
+} else if (choiceThree === 'PUT CELLPHONE IN PENCIL HOLDER') {
+
+alert("You take both. You set the cellphone alarm to 20 seconds, and you put the cellphone into the pencil holder.");
+
+} else {
+
+alert("INVALID COMMAND! GAME OVER!");
+throw new Error();
+
+}
+
+alert("You slide the pencil holder 3 desks down from yours.");
+
+alert("The phone rings, and the intruder walks towards it.");
+
+alert("He reaches down to grab the phone, and you bust into action, tackling him down. His rifle falls to the ground.");
+
+var finalChoice = prompt("Do you SHOOT HIM, or do you KNOCK HIM OUT?").toUpperCase();
+
+if (finalChoice === 'SHOOT HIM') {
+
+alert("You go for the rifle, but he grabs your foot. You hit your head on the floor, and you cannot move. He picks up the rifle and aims it at your head. GAME OVER!);
+throw new Error();
+
+} else if (finalChoice === 'KNOCK HIM OUT') {
+
+alert("He shouts in pain, as you knock him out with a few punches.");
+
+} else {
+
+alert("INVALID COMMAND! GAME OVER!");
+throw new Error();
+
+}
+
+alert("You call for everyone in the breakroom to help you hold him down. 30 minutes later, an entire SWAT force arrives, and they evacuate everyone.");
+
+alert("They get to you, still holding down the intruder. They put him in cuffs, and he is taken away.");
+
+alert("You are given a bravery award, a day later, at a City Hall ceremony. YOU WIN!");
+
+alert("CREDITS");
+
+alert("Coding: Gupaul Nijjar");
+
+alert("Story: Gupaul Nijjar");
+
+alert("Basically everything that made this game apart from JSFIDDLE and GITHUB: Gupaul Nijjar");
 
