@@ -1,5 +1,8 @@
+<!DOCTYPE html>
+<head>
+<script>
 alert("Are you ready to play?");
-alert("DISCLAIMER PLEASE READ: This game has detail in the story. Please read everything carefully! Have fun!");
+alert("DISCLAIMER PLEASE READ: This game has detail in the story. Please read everything carefully! ANSWER WITH EXACT COMMAND AND SPELLING! Have fun!");
 
 alert("You wake up and look at the time. You scream as it is 8:00am. You have to be at work at 8:30am. After rushing your morning routine, you arrive at your garage at 8:15am.");
 
@@ -227,3 +230,23 @@ alert("Coding: Gupaul Nijjar");
 alert("Story: Gupaul Nijjar");
 
 alert("Basically everything that made this game apart from JSFIDDLE and GITHUB: Gupaul Nijjar");
+</script>
+<style>
+
+h1 {
+color: red;
+}
+
+body {
+background-color: black;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Workplace Catastrophe Adventure</h1>
+
+</body>
+</html>
